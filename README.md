@@ -6,7 +6,16 @@ Angular Application
 This project was designed to transform data received from server to a different format for display purpose.
 
 ## Response from server : 
-`Please note that it is possible that a Band might not have played at any festival`
+`Please note that it is possible that a Band might not have played at any festival as shown in problem statement where Band Y  doesn't have a linked festival
+  Record Label 1
+    Band X
+      Omega Festival
+    Band Y
+  Record Label 2
+    Band A
+      Alpha Festival
+      Beta Festiva
+`
 
 
 {
