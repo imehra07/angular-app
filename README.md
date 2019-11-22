@@ -5,7 +5,8 @@ Angular Application
 
 This project was designed to transform data received from server to a different format for display purpose.
 
-## Response from server : Please note that a Band might not have played at any festival.
+## Response from server : 
+`Please note that it is possible that a Band might not have played at any festival`
 {
   "data": [
     {
