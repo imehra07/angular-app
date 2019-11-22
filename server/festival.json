@@ -1,0 +1,79 @@
+{
+  "data": [
+    {
+      "name": "",
+      "bands": [
+        {
+          "name":  "Band Z",
+          "recordLabel": "Record Label 1"
+        }
+      ]
+    },
+    {
+      "name": "",
+      "bands": [
+        {
+          "name":  "Band D",
+          "recordLabel": "A record label"
+        }
+      ]
+    },
+    {
+      "name": "Phi Festival",
+      "bands": [
+        {
+          "name":  "Band S",
+          "recordLabel": "A record label"
+        },
+        {
+          "name":  "Band T",
+          "recordLabel": "B record label"
+        }
+      ]
+    },
+    {
+      "name": "Omega Festival",
+      "bands": [
+        {
+          "name":  "Band X",
+          "recordLabel": "Record Label 1"
+        }
+      ]
+    },
+    {
+      "name": "Alpha Festival",
+      "bands": [
+        {
+          "name":  "Band A",
+          "recordLabel": "Record Label 2"
+        }
+      ]
+    },
+    {
+      "name": "Gamma Festival",
+      "bands": [
+        {
+          "name":  "Band C",
+          "recordLabel": "Record Label 3"
+        },
+        {
+          "name":  "Band Y",
+          "recordLabel": "Record Label 1"
+        }
+      ]
+    },
+    {
+      "name": "Beta Festival",
+      "bands": [
+        {
+          "name":  "Band A",
+          "recordLabel": "Record Label 2"
+        },
+        {
+          "name":  "Band C",
+          "recordLabel": "Record Label 3"
+        }
+      ]
+    }
+  ]
+}

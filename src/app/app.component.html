@@ -1,0 +1,27 @@
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">List of record labels, bands and festivals</h5>
+
+    <ul class="list-group">
+      <li class="list-group-item " *ngFor="let recordLabel of transformedData">
+        {{recordLabel.recordLabel}}
+        <ng-container *ngIf="recordLabel.bandToFestivalMapping">
+          <ul class="list-group">
+            <li class="list-group-item list-group-item-secondary" *ngFor="let band of recordLabel.bandToFestivalMapping">
+              {{band.bandName}}
+              <ng-container *ngFor="let festival of band.festivalNames">
+                <ng-container *ngIf="!isEmpty(festival)">
+                  <ul class="list-group">
+                    <li class="list-group-item list-group-item-success">
+                      {{festival}}
+                    </li>
+                  </ul>
+                </ng-container>
+              </ng-container>
+            </li>
+          </ul>
+        </ng-container>
+      </li>
+    </ul>
+  </div>
+</div>
